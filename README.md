@@ -1,5 +1,4 @@
-# dream3d-data
-
+# Kinetics-data-processing
 Quick and dirty implementation. Assumed that given video scale can always be scaled to 360p. Used async/aiohttp for just the url fetching and tested with 1 endpoint(1000 videos). 
 Used Ray to organize the actual transcoding and writing to lance since those are more CPU-bound tasks rather then the URL. Attempted to the depth extraction but it was wayyy too heavy for my poor laptop but I left the commented code there anyway. 
 
